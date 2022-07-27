@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+body {
+  background-color: #1b94e0;
+  font-family: 'Muli', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  max-width: 1200px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  width: 100%;
+  min-height: 200px;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn {
+  padding: 15px;
+  width: auto;
+  float: left;
+  background: red;
+  margin-left: 10px;
+}
+
+input {
+  width: 100%;
+  font-size: 25px;
+}
+
+.list {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+#input,
+#output {
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+}
+.last{
+  margin-top: 23px;
+  padding: 20px;
+}

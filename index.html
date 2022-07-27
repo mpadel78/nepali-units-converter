@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Units calculator</title>
+
+<link rel="icon" type="image/x-icon" href="./favicon.ico">
+<link rel="stylesheet" href="./style.css">
+</head>
+
+
+<div id="wrapper">
+  <div class="box">
+
+    <h1>Units Converter</h1>
+    <input type="number" name="inputValue" step="any" id="inputValue" onkeyup="convert()">
+
+    <div class="list">
+      <select id="input" onChange = "convert()">
+        <option value="1">Bigaha (बिगाहा)</option>
+  <option value="2">Kattha (कट्ठा)</option>
+       <option value="3">Dhur (धुर)  </option>
+     <option value="4">Ana (आना) </option>
+   <option value="5">Square feet (स्क्वायर फीट) </option></select>
+      <select id="output" onChange = "convert()">
+      <option value="1">Bigaha (बिगाहा)</option>
+  <option value="2">Kattha (कट्ठा)</option>
+       <option value="3">Dhur (धुर)</option>
+     <option value="4">Ana (आना)</option>
+   <option value="5">Square feet (स्क्वायर फीट)</option></select>
+    </div>
+     
+      
+    <h1 id="result">
+    </h1>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p id= "last"> Written and coded by <a href="https://github.com/mpadel78" target="_blank">Manish Paudel</a> </p>
+
+
+    </html>
